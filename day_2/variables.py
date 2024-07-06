@@ -15,7 +15,7 @@ school, system, level = "University of Ilorin", "Macbook pro", "year four"
 print(school, system, level)
 print(len(first_name))
 print(len(last_name))
-print((len(first_name)) > (len(last_name)))
+print(len(first_name) > len(last_name))
 print(len(full_name))
 print(type(age))
 
@@ -35,7 +35,7 @@ print(f'{a} / {b} = {a/b}')
 print(f'{a} % {b} = {a % b}')
 # floor division
 print(f'{a} // {b} = {a // b}')  
-# power
+# power / exponentiation
 print(f'{a} ** {b} = {a ** b}')
 
 
